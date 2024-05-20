@@ -10,3 +10,4 @@
 - Introdução a Lógica de Programação
 - Conceitos de Algoritmos
 - Lógica na Prática
+- Linguagem de Programação Usada: Portugol
