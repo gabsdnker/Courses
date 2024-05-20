@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .calculator {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #inputs {
+            margin-bottom: 20px;
+        }
+
+        input[type="number"] {
+            width: calc(100% - 110px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        #notas {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        #notas li {
+            background: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        #resultado {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora de Médias</h2>
+        <div id="inputs">
+            <input type="number" placeholder="Insira a nota" id="nota">
+            <button class="btn" onclick="adicionarNota()">Adicionar Nota</button>
+        </div>
+        <ul id="notas"></ul>
+        <button class="btn" onclick="calcularMedia()">Calcular Média</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="./solucao_algoritmo.js"></script>
+</body>
+</html>
