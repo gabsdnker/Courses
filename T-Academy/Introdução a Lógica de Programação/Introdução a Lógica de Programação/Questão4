@@ -1,0 +1,24 @@
+//Autor: Gabrielli Danker
+// Ultima edição: 06/11/2024
+
+//Escreva um algoritmo para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto;
+
+//Entrada de dados:
+    Distância total percorrida
+    Total de combustível gasto
+
+//Processamento:
+    Calcular o consumo médio de um automóvel
+
+//Saída:
+    Mostrar o consumo médio de um automóvel
+
+=================================
+Algoritmo:
+
+Ler DistanciaTotalPercorrida (em quilometros) 
+Ler CombustivelGasto (em litros)
+
+ConsumoMedio = DistanciaTotalPercorrida / CombustivelGasto
+
+Escreva ConsumoMedio (em quilometros por litros)

@@ -1,0 +1,52 @@
+//Autor: Gabrielli Danker
+// Ultima edição: 06/11/2024
+
+//Faça um algoritmo para realizar a tarefa de tomar banho;
+
+//Entrada de dados:
+    Tomar banho
+
+//Processamento:
+    Tirar a roupa
+    Abrir o box
+    Ligar o chuveiro
+    Entrar no box
+    Passar o shampoo no cabelo
+    Tirar o shampoo do cabelo
+    Passar o condicionador no cabelo
+    Tirar o condidionador do cabelo
+    Passar o sabonete no corpo
+    Tirar o sabonete do corpo
+    Desliagar o chuveiro
+    Pegar a toalha de banho
+    Secar o corpo com a toalha de banho
+    Sair do box
+    Fechar o box
+    Colocar a roupa
+
+//Saída:
+    Banho tomado
+
+=================================
+Algoritmo:
+
+Iniciar Banho
+
+Ler "Tirar a roupa"
+Ler "Abrir o box"
+Ler "Ligar o chuveiro"
+Ler "Entrar no box"
+Ler "Passar shampoo no cabelo"
+Ler "Tirar o shampoo do cabelo"
+Ler "Passar condicionador no cabelo"
+Ler "Tirar o condicionador do cabelo"
+Ler "Passar sabonete no corpo"
+Ler "Tirar o sabonete do corpo"
+Ler "Desligar o chuveiro"
+Ler "Pegar a toalha de banho"
+Ler "Secar o corpo com a toalha"
+Ler "Sair do box"
+Ler "Fechar o box"
+Ler "Colocar a roupa"
+
+Escrever "Banho tomado"

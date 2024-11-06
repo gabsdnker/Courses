@@ -1,0 +1,22 @@
+//Autor: Gabrielli Danker
+// Ultima edição: 06/11/2024
+
+//Faça um algoritmo que receba dois números e ao final mostre o resultado da soma dos dois números lidos;
+
+// Entrada de dados:
+    numero1
+    numero2
+// Processamento:
+    Somar os dois numeros
+// Saída:
+    O resultado da soma
+
+===============================
+Algoritmo:
+
+Ler numero1
+Ler numero2
+
+soma = numero1 + numero2
+
+Escrever soma 

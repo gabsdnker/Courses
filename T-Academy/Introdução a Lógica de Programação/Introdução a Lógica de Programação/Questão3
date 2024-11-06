@@ -1,0 +1,39 @@
+//Autor: Gabrielli Danker
+//Ultima edição: 06/11/2024
+
+//Faça um algoritmo para preparar um macarrão instantâneo. Parta do principio que você está na cozinha e deve prepará-lo e servi-lo.
+
+//Entrada de dados:
+  Macarrão instantâneo
+
+//Processamento:
+  Pegar uma panela
+  Colocar água na panela
+  Ligar o fogão e esperar a água ferver
+  Quando a água ferver, colocar o macarrão instantâneo na panela
+  Cozinhar o macarrão por aproximadamente 3 minutos ou conforme instruções da embalagem
+  Desligar o fogo
+  Escorrer o macarrão, se necessário
+  Colocar o macarrão em um prato
+
+//Saída:
+  Servir o macarrão instantâneo em um prato
+
+=================================
+Algoritmo:
+
+Verificar ingredientes e utensílios (macarrão instantâneo, água, panela, colher, prato)
+Colocar água na panela
+Colocar panela no fogo alto
+Esperar a água ferver
+
+Quando a água ferver:
+    Adicionar o macarrão na panela
+    Cozinhar por 3 minutos (ou conforme a embalagem)
+    Mexer ocasionalmente
+    Desligar o fogo
+    Adicionar o tempero ao macarrão
+    Mexer bem para dissolver o tempero
+    
+Servir o macarrão no prato
+

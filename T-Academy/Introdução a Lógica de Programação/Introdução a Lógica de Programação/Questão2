@@ -1,0 +1,31 @@
+//Autor: Gabrielli Danker
+// Ultima edição: 06/11/2024
+
+//Faça um algoritmo para informar à Joãozinho se ele foi aprovado na matéria de Lógica para programação. Joãozinho fez 3 provas e a média necessária para ser aprovado é de 7;
+
+//Entrada de dados:
+    nota1
+    nota2
+    nota3
+
+//Processamento:
+    Calcular a Media
+
+//Saída:
+    Mostrar se Aprovado ou Reprovado 
+
+
+============================
+Algoritmo:
+
+Ler nota1
+Ler nota2
+Ler nota3
+
+soma = nota1 + nota2 + nota3
+média = soma/3
+
+Se media >= 7 então 
+    escreva "Aprovado" 
+Senão 
+    escreva "Reprovado"
